@@ -3,5 +3,5 @@
   :url "https://github.com/sjl/metrics-clojure"
   :license {:name "MIT"}
   :profiles {:dev {:global-vars {*warn-on-reflection* true}}}
-  :dependencies [[metrics-clojure "3.0.0"]
+  :dependencies [[audiogum/metrics-clojure "3.0.0"]
                  [io.dropwizard.metrics/metrics-healthchecks "4.1.0"]])
