@@ -3,7 +3,7 @@
   :url "https://github.com/sjl/metrics-clojure"
   :license {:name "MIT"}
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [io.dropwizard.metrics/metrics-core "3.2.2"]]
+                 [io.dropwizard.metrics/metrics-core "4.1.0"]]
   :repositories {"repo.codahale.com" "http://repo.codahale.com"
                  ;; to get Clojure snapshots
                  "sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
@@ -13,7 +13,7 @@
                                        :snapshots true
                                        :releases {:checksum :fail :update :always}}}
     :profiles {:1.8    {:dependencies [[org.clojure/clojure "1.8.0"]]}
-               :master {:dependencies [[org.clojure/clojure "1.10.0-master-SNAPSHOT"]]}
+               :master {:dependencies [[org.clojure/clojure "1.10.1"]]}
                :dev    {:global-vars {*warn-on-reflection* true}}}
   :aliases  {"all" ["with-profile" "+dev:+1.8:+master"]}
   :global-vars {*warn-on-reflection* true})
