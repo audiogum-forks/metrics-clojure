@@ -1,4 +1,4 @@
-(defproject metrics-clojure-health "3.0.0-SNAPSHOT"
+(defproject audiogum/metrics-clojure-health "3.0.0-SNAPSHOT"
   :description "Gluing together metrics-clojure and healthchecks."
   :url "https://github.com/sjl/metrics-clojure"
   :license {:name "MIT"}

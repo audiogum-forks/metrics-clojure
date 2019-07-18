@@ -1,4 +1,4 @@
-(defproject metrics-clojure-ring "3.0.0-SNAPSHOT"
+(defproject audiogum/metrics-clojure-ring "3.0.0-SNAPSHOT"
   :description "Various things gluing together metrics-clojure and ring."
   :url "https://github.com/sjl/metrics-clojure"
   :license {:name "MIT"}
