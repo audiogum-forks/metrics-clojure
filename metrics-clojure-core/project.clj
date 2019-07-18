@@ -1,4 +1,4 @@
-(defproject audiogum/metrics-clojure "3.0.0-SNAPSHOT"
+(defproject audiogum/metrics-clojure "3.0.0"
   :description "A Clojure façade for Coda Hale's metrics library."
   :url "https://github.com/sjl/metrics-clojure"
   :license {:name "MIT"}
